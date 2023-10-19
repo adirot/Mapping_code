@@ -13,11 +13,8 @@ code_dir="$PWD"
 ## change this to your genome dir: 
 genome_dir="${code_dir}/Genome_files"
 
-## set a path to the input FASTA files:
-inputFilesFolder="${code_dir}/raw_data"
-
-## set a path to the output merged fastq files:
-mergedFastqFolder="${code_dir}/output/merged_fastq"
+## set a path to the input FASTQ files:
+inputFilesFolder="${code_dir}/FASTQ_raw_data"
 
 ## set a path to the output fastQC files:
 fastqcFolder="${code_dir}/output/fastQC"
@@ -29,10 +26,10 @@ referenceFileFolder="${genome_dir}" # needs to be thesame as the folder in "refe
 ## choose a base name for the referance index
 referenceIndexBaseName=KLYmoreannotations
 
-## choose clean floder name
+## choose clean fastq floder name
 cleanOutputFolder="${code_dir}/output/clean_fastq"
 
-## choose name for alignment results folder
+## choose name for alignmed results folder
 alignOutputFolder="${code_dir}/output/aligned_KLYmoreannotations"
 
 ## choose name for count results folder
@@ -55,7 +52,7 @@ mkdir -p "${originalFastqFolder}"
 
 echo " "
 echo " "
-echo "clean ployA and low quality and adptors"
+echo "clean ployA tail, low quality, and adptors"
 echo "---------------------------------------"
 cd "${originalFastqFolder}"
 
