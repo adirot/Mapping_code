@@ -1,4 +1,4 @@
-# Mapping_code
+## Read_cleanning_mapping_and_counting
 This is the code used to get from raw FASTQ files to normalized read counts.
 
 
@@ -17,3 +17,4 @@ kly_more_names.gtf: The annotation file is based on the annotation file of the K
                         * A few genes are added to this annotation, which are in the KLYR but not the KLY: spc, tetR. Also, some genes names are changed in the       
                           "kly_more_names" to thier common names. 
   
+
