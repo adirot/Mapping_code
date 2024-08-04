@@ -7,6 +7,14 @@ The raw FASTQ files are not provided in this github since they are large, but yo
 ## Experiment metadata
 Metadata for the samples. The code uses this metadata for calculations of the normalizations. 
 
+## Normalization of raw counts
+This folder contains a jupyter notebook that preforms the different normalizations (downsampling, ERCC spike-in nomalization, and RPK after down-sampling) of the raw read counts. It needs as an input the raw counts that are the output of HTseq-count. If you ran the code in "Read_cleanning_mapping_and_counting" you should have a folder with these files under "map_count_outputs/Experiment#/counts".
+After you run this code, new folders will be created containg csv files with the normalized read counts. 
+For DEseq2 normalization, see the subfolder "DEseq normalization code".
+
+### DEseq normalization code
+
+
 ## Genome Files
 The Genome files folder contains the genome data necessary for mapping of the raw reads to the genome. 
 The two files are 
