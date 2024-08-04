@@ -1,4 +1,4 @@
-## Read_cleanning_mapping_and_counting
+## Read_cleanning_mapping_and_counting.bash
 This is the code used to get from raw FASTQ files to normalized read counts.
 
 ## FASQ_raw_data
