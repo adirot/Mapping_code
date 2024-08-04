@@ -4,6 +4,9 @@ This is the code used to get from raw FASTQ files to normalized read counts.
 ## FASQ_raw_data
 The raw FASTQ files are not provided in this github since they are large, but you can download the whole github, and manually add them (see read me files in folder). 
 
+## Experiment metadata
+Metadata for the samples. The code uses this metadata for calculations of the normalizations. 
+
 ## Genome Files
 The Genome files folder contains the genome data necessary for mapping of the raw reads to the genome. 
 The two files are 
