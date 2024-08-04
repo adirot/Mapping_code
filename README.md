@@ -13,7 +13,7 @@ After you run this code, new folders will be created containg csv files with the
 For DEseq2 normalization, see the subfolder "DEseq normalization code".
 
 ### DEseq normalization code
-
+See the read me file in this subfolder. This folder contains the R code used to normalize the reads using DESeq2.
 
 ## Genome Files
 The Genome files folder contains the genome data necessary for mapping of the raw reads to the genome. 
