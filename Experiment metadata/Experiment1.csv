@@ -1,0 +1,13 @@
+﻿file,mix,ul_ERCC_added_to_sample,ERCC_dilution,Number of cells in sample,biorep index,tech rep index
+CASP_biorep1a,1,1.3,40,8.05E+07,1,a
+CASP_biorep1b,1,1.3,40,9.43E+07,1,b
+CASP_biorep1c,1,1.3,40,9.20E+07,1,c
+CASP_biorep2,1,1.3,40,5.40E+07,2,a
+CASP_biorep3,1,1.3,40,4.76E+07,3,a
+CASP_biorep4,1,1.3,40,7.60E+07,4,a
+Disrupted_biorep1a,1,1.3,40,2.75E+06,1,a
+Disrupted_biorep1b,1,1.3,40,2.02E+06,1,b
+Disrupted_biorep1c,1,1.3,40,3.57E+06,1,c
+Disrupted_biorep2,1,1.3,40,1.42E+06,2,a
+Disrupted_biorep3,1,1.3,40,3.80E+06,3,a
+Disrupted_biorep4,1,1.3,40,2.43E+06,4,a
