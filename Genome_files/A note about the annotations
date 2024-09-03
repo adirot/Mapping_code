@@ -2,3 +2,4 @@ Note that the KLY (NZ_CP008801.1 ) annotations were enriched usging the annotati
 The KLY annotations were compared to these annotations, and when extra information was availble in either one of the three it was added to the gff file to create "NZ_CP008801.1_corrected".
 If a common name was avialble, the transcript name is the common name. 
 Note that transcripts starting with HQ are from the KLY original annotations, transcripts starting with HXF are from the F-plasmid annotations, and genes starting with CDN are from the DH5alpha annotations. These transcripts do not have common names. 
+"Extra genes" is an annotation file contating two genes that are in KLYR but not in KLY. 
